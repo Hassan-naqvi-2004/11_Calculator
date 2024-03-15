@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  font-family: sans-serif;
+}
+.main-i{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.main{
+  background-color: rgb(9, 0, 80);
+  padding: 5px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.grand{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: rgb(9, 0, 80) ;
+  width: 330px;
+  border-radius:10px ;
+  height: 400px;
+}
+.bg{
+  
+  /* display: flex;
+  flex-direction: column; */
+  
+}
+.bg input{
+  width:220px ;
+  margin: 30px ;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.main-btn{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+.btn3{
+  /* padding: 15px; */
+  width: 120px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+.btn1{
+  /* padding: 15px; */
+  border: none;
+  height: 70px;
+  border-radius:0 10px 10px 0;
+  width: 65px;
+  font-size: 20px;
+  
+}
+.bg1{
+ display: flex;
+ gap: 10px;
+}
+.bg1 button{
+  padding: 10px;
+  width: 55px;
+  border: none;
+  font-weight: 600;
+  /* border-radius: 10px; */
+}
+.BTNS{
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.BTNS1{
+  width: 55px;
+  padding: 5px;
+  height: 45px;
+  border-radius: 10px;
+  font-weight: 800;
+  border: none;
+}
+.BTNS2{
+  width: 55px;
+  padding: 5px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+}
+.BTNS3{
+  width: 55px;
+  padding: 5px;
+  height:80px;
+  border-radius: 10px;
+  border:none;
+  font-weight: 600;
+}
+.BTNS4{
+  width: 55px;
+  padding: 5px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(0, 187, 255);
+  color: white;
+}
+.allbuttons{
+  display: flex;
+  gap: 10px;
+}
